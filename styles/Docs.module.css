@@ -1,0 +1,18 @@
+.docsContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--light-gray);
+  color: black;
+}
+
+.docsContent {
+  display: flex;
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .docsContent {
+    flex-direction: column;
+  }
+}

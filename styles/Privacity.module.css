@@ -1,0 +1,28 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.section h1 {
+  font-size: 3rem;
+}
+
+.titleContainer {
+  margin-top: 2rem;
+}
+
+.contactEmail::after {
+  content: "cristianmasisofarias@gmail.com";
+}
