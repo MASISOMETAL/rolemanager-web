@@ -19,6 +19,9 @@ export default function Navbar() {
         <Link href="/docs" className={styles.navLink}>
           Documentación
         </Link>
+        <Link href="https://discord.gg/BFSYsnNPh5" target="_blank" className={styles.navLink}>
+          Únete a mi server
+        </Link>
         <a href="https://discord.com/oauth2/authorize?client_id=1364981410200424520&permissions=1099914300416&integration_type=0&scope=bot+applications.commands" target="_blank" className={styles.navButton}>
           Añadir a Discord
         </a>

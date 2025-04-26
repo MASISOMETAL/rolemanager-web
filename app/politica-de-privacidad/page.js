@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../../components/Navbar'
 import styles from "../../styles/Privacity.module.css"
 import Footer from '../../components/Footer'
+import { nombreBot } from '../../config'
 
 const Privacidad = () => {
   return (
@@ -17,14 +18,14 @@ const Privacidad = () => {
         <div>
           <h2>1. Introducción</h2>
           <p>
-            En <strong>RolManager</strong>, valoramos su privacidad y estamos comprometidos a proteger cualquier información
+            En <strong>{nombreBot}</strong>, valoramos su privacidad y estamos comprometidos a proteger cualquier información
             que se recopile durante el uso del bot. Este documento describe cómo gestionamos los datos, con qué propósito se
             utilizan y cómo garantizamos su seguridad.
           </p>
 
           <h2>2. Información Recopilada</h2>
           <p>
-            <strong>RolManager</strong> no recopila información personal identificable de los usuarios de manera permanente.
+            <strong>{nombreBot}</strong> no recopila información personal identificable de los usuarios de manera permanente.
             Sin embargo, se procesan temporalmente los siguientes datos para garantizar la funcionalidad del bot:
           </p>
           <ul>
@@ -47,7 +48,7 @@ const Privacidad = () => {
 
           <h2>4. Retención de Datos</h2>
           <p>
-            Todos los datos procesados por <strong>RolManager</strong> se almacenan temporalmente mientras el bot ejecuta el
+            Todos los datos procesados por <strong>{nombreBot}</strong> se almacenan temporalmente mientras el bot ejecuta el
             comando correspondiente. Una vez finalizada la operación, los datos se eliminan. No mantenemos registros permanentes
             de contraseñas, usuarios o roles.
           </p>
@@ -61,7 +62,7 @@ const Privacidad = () => {
 
           <h2>6. Responsabilidad del Usuario</h2>
           <p>
-            Los usuarios son responsables de usar <strong>RolManager</strong> de forma adecuada y garantizar que los comandos
+            Los usuarios son responsables de usar <strong>{nombreBot}</strong> de forma adecuada y garantizar que los comandos
             ejecutados cumplan con las normas de su servidor. Además, los usuarios deben manejar contraseñas y datos sensibles
             de forma segura.
           </p>
@@ -77,12 +78,12 @@ const Privacidad = () => {
           <p>Si tiene preguntas o inquietudes sobre esta Política de Privacidad, puede contactarnos en:</p>
           <ul>
             <li><strong>Correo Electrónico:</strong> <span className={styles.contactEmail}></span></li>
-            <li><strong>Servidor de Soporte de Discord:</strong> <a href="https://discord.gg/enlace">Aun sin soporte</a></li>
+            <li><strong>Servidor de Soporte de Discord:</strong> <a href="https://discord.gg/BFSYsnNPh5">Server de Discord</a></li>
           </ul>
 
           <h2>9. Aceptación de esta Política</h2>
           <p>
-            Al usar <strong>RolManager</strong>, usted acepta esta Política de Privacidad. Si no está de acuerdo con alguno
+            Al usar <strong>{nombreBot}</strong>, usted acepta esta Política de Privacidad. Si no está de acuerdo con alguno
             de sus términos, le pedimos que deje de usar el bot.
           </p>
         </div>

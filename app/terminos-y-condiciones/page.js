@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../../components/Navbar'
 import styles from "../../styles/Terms.module.css"
 import Footer from "../../components/Footer"
+import { nombreBot } from '../../config'
 
 const Terminos = () => {
   return (
@@ -17,7 +18,7 @@ const Terminos = () => {
         <div>
           <h2>1. Descripción del Bot</h2>
           <p>
-            Este bot de Discord, llamado <strong>RolManager</strong>, está diseñado para gestionar roles en servidores
+            Este bot de Discord, llamado <strong>{nombreBot}</strong>, está diseñado para gestionar roles en servidores
             de Discord mediante comandos interactivos. Las funciones incluyen la creación de contraseñas para roles, la
             asignación de roles mediante contraseñas, la gestión de grupos de roles, y otras características relacionadas
             con la administración de roles y permisos.
@@ -25,7 +26,7 @@ const Terminos = () => {
 
           <h2>2. Aceptación de los Términos</h2>
           <p>
-            Al usar <strong>RolManager</strong>, los usuarios aceptan cumplir con los términos y condiciones aquí establecidos.
+            Al usar <strong>{nombreBot}</strong>, los usuarios aceptan cumplir con los términos y condiciones aquí establecidos.
             Si no está de acuerdo con estos términos, absténgase de usar este bot.
           </p>
 
@@ -54,7 +55,7 @@ const Terminos = () => {
 
           <h2>6. Limitaciones de Responsabilidad</h2>
           <p>
-            <strong>RolManager</strong> se proporciona tal como está, sin garantías de disponibilidad o funcionalidad
+            <strong>{nombreBot}</strong> se proporciona tal como está, sin garantías de disponibilidad o funcionalidad
             ininterrumpida. No somos responsables de problemas técnicos o conflictos surgidos del uso del bot.
           </p>
 
@@ -75,12 +76,12 @@ const Terminos = () => {
           <p>Para dudas o problemas con el bot, puede contactarnos a través de:</p>
           <ul>
             <li><strong>Correo Electrónico:</strong> <span className={styles.contactEmail}></span></li>
-            <li><strong>Servidor de Soporte de Discord:</strong> <a href="https://discord.gg/enlace">Aun sin soporte</a></li>
+            <li><strong>Servidor de Soporte de Discord:</strong> <a href="https://discord.gg/BFSYsnNPh5">Server de Discord</a></li>
           </ul>
 
           <h2>10. Propiedad Intelectual</h2>
           <p>
-            El bot <strong>RolManager</strong> y su código fuente son propiedad del desarrollador. Queda prohibido clonar,
+            El bot <strong>{nombreBot}</strong> y su código fuente son propiedad del desarrollador. Queda prohibido clonar,
             modificar o distribuir el bot sin autorización expresa.
           </p>
 
